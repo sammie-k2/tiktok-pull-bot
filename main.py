@@ -150,7 +150,7 @@ def x(user_id: str) -> None:
       print(e)
       continue
 
-combo = input("[?] Combo >>> ")
+combo = input("combo.txt")
 
 with open(combo, "r") as file:
   lines = file.readlines()
